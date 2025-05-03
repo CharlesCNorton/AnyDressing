@@ -1,6 +1,6 @@
 <div align="center">
 
-  <h1 align="center">[CVPR 2025]AnyDressing: Customizable Multi-Garment Virtual Dressing via Latent Diffusion Models</h1>
+  <h1 align="center">[CVPR 2025] AnyDressing: Customizable Multi-Garment Virtual Dressing via Latent Diffusion Models</h1>
 <!--   <h2 align="center">ICML 2024</h2> -->
   
 
@@ -19,12 +19,12 @@ AnyDressing comprises two primary networks named GarmentsNet and DressingNet, wh
 Specifically, we propose an efficient and scalable module called Garment-Specific Feature Extractor in GarmentsNet to individually encode garment textures in parallel. This design prevents garment confusion while ensuring network efficiency. 
 Meanwhile, we design an adaptive Dressing-Attention mechanism and a novel Instance-Level Garment Localization Learning strategy in DressingNet to accurately inject multi-garment features into their corresponding regions. This approach efficiently integrates multi-garment texture cues into generated images and further enhances text-image consistency. 
 Additionally, we introduce a Garment-Enhanced Texture Learning strategy to improve the fine-grained texture details of garments. 
-Thanks to our well-craft design, AnyDressing can serve as a plug-in module to easily integrate with any community control extensions for diffusion models, improving the diversity and controllability of synthesized images. 
+Thanks to our well-crafted design, AnyDressing can serve as a plug-in module to easily integrate with any community control extensions for diffusion models, improving the diversity and controllability of synthesized images. 
 Extensive experiments show that AnyDressing achieves state-of-the-art results. 
 
 ## 🧭 Overview
 <p align="center">
-<img src="./static/images/overview.png" width=100% height=100% 
+<img src="./static/images/overview.png" width="100%" height="100%"
 class="center">
 </p>
 
